@@ -1,0 +1,102 @@
+ body {
+    background-color: rgb(22, 22, 90);
+ }
+header {
+    background-image: url("pp3.jpg");
+    color: mediumblue;
+}
+h1 {
+    text-align: center;
+    margin-top: -10px;
+    font-size: 70px;
+}
+ul {
+    text-align: left;
+    margin-left: -30px;
+    list-style: none;
+    display: flex;
+    margin-top: -50px;
+}
+ul li.b :hover {
+    background-color: rgb(181, 181, 180);
+    margin:2px;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+ul li.a {
+    margin-left:10px;
+    margin-right: 1210px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#ul1 a {
+    text-decoration: none;
+    color: rgb(56, 56, 238);
+}
+ul li.b {
+    margin-left: 30px;
+}
+l#l2 {
+    margin-right: 60px;
+}
+div#d3 {
+    color: white;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#s1t,#s2,#s3,#s4,#s5,#s6,#s7,#s8 {
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    border-style: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+#s1t {
+    margin-left: 230px;
+}
+table {
+    margin-top: 10px;
+    padding-top: -40px;
+    margin-left: 20px;
+}
+table a {
+    color: blanchedalmond;
+    text-decoration: none;
+}
+table th {
+    font-size: 30px;
+    color: deepskyblue;
+    border: 5px solid rgb(42, 42, 159);
+    padding-bottom: -20px;
+}
+p.p1 {
+    text-align: center;
+    font-size: 20PX;
+    color: tomato;
+    margin-bottom: 5px;
+}
+body li {
+    list-style: none;
+    margin-left: 100px;
+}
+h2 {
+    margin-top: -3px;
+    margin-left: 6px;
+    margin-bottom: 5px;
+}
+footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgb(49, 44, 44);
+    padding: 0px;
+    color: rgb(232, 227, 227);
+}
+footer ul li a {
+    display: flex;
+}
+p#pp,#r,#s,#t,#u {
+    margin-left: 40px;
+    color: rgb(69, 69, 205);
+}

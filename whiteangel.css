@@ -1,0 +1,66 @@
+body {
+     background-color: black;
+}
+header h1 {
+    background-color: rgb(207, 195, 195);
+    margin-left: 500px;
+    margin-right: 600px;
+    padding: 15px;
+    text-align: center;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+form label {
+    margin-left: 600px;
+   color: white;
+}
+form input {
+    background-color: rgb(175, 159, 159);
+    padding: 15px;
+    border-style: none;
+    margin-left: 600px;
+   color: white;
+}
+form input#th1,#th3 {
+    margin-bottom: 15px;
+}
+p {
+    display: flex;
+    flex-direction: row;
+   color: white;
+}
+p input#r2,#r3 {
+    margin-left: 15px;
+   color: white;
+}
+div#d1 {
+    display: flex;
+    flex-direction: row;
+   color: white;
+}
+div input#i2,input#i3,input#i4 {
+    margin-left: 50px;
+   color: white;
+}
+div input#i1 {
+    margin-left: 520px;
+   color: white;
+}
+div#d2 input#mt {
+    border-radius: 20px;
+    margin-top: 50pxs;
+   color: white;
+}
+input#mt {
+    margin-top: 100px;
+    margin-left: 650px;
+    background-color: rgb(29, 29, 163);
+    color: rgb(205, 198, 198);
+}
+table td {
+    margin: 4px;
+}

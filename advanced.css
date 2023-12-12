@@ -1,0 +1,210 @@
+html {
+    height: 500vh;
+    max-width: 100%;
+    background-image: url("image/background.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+header {
+    background-image: url("image/background.jpg");
+    color:rgb(14, 139, 189);
+    display: flex;
+    margin: 10px 40px 0px;
+    align-items: center;
+    border-radius: 10px;
+}
+h1 {
+    margin: 0px 0px 0px 0px;
+    background-color: white;
+    display: inline-block;
+    padding: 0px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+.navbar {
+    margin-left: 300px;
+}
+.navbar a {
+    color: white;
+    margin: 0px 0px 0px px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    background-color: rgb(32, 128, 166);
+    border-radius: 5px;
+}
+.navbar a:hover {
+    background-color: rgb(124, 181, 204);
+    padding: 10px;
+}
+a#idhome {
+    background-color: green;
+    padding: 10px;
+}
+a#idhome:hover{
+    background-color:rgb(66, 176, 66);
+}
+.nav {
+    padding: 10px;
+}
+div#rt {
+    margin: 0px -20px 0px 40px;
+}
+#h1 {
+    background-color: brown;
+    color: white;
+    margin: 10px 40px 0px;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+#h1 a {
+    color: white;
+    text-decoration: none;
+    text-decoration: underline;
+}
+#h11 {
+    margin-left: 50px;
+    display: inline-block;
+}
+.mydis {
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: -150px;
+}
+#df {
+    margin-left: 770px;
+    margin-top: -180px;
+}
+#gr {
+    font-size: 30px;
+}
+#dt {
+    font-size: small;
+}
+main {
+    border: 0.5px solid rgb(103, 172, 199);
+    width: 600;
+    height: 100%;
+    background-color: rgba(8, 8, 8, 0),;
+    margin: 10px 100px 0px;
+}
+#divmain {
+    margin-top: 10PX;
+}
+#divdesc {
+    border: 2px solid skyblue;
+}
+table#tt2 {
+    text-align: center;
+    margin-left: 80px;
+}
+.myimg {
+    margin-left: 50px;
+}
+.f9 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: underline;
+    text-decoration-color: rgb(64, 64, 216);
+}
+ul li,ul a {
+    color: white;
+    text-decoration: none;
+}
+ul li h2,h3 {
+    text-decoration: none;
+    color: white;
+}
+h2 {
+    text-transform: uppercase;
+}
+.fa {
+    background-color: darkblue;
+    padding: 3px;
+    border-radius: 5px;
+}
+footer {
+    background-image: url("image/trav7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0px 0px 0px 0px ;
+    padding:0px 0px;
+    text-align: center;
+    color: white;
+}
+table#t1 {
+    width: 70%;
+    height: 200;
+    align-items: center;
+    margin: 10px 100px 10px 227px;
+}
+table#t1,th.t2,td.t1 {
+    color: white;
+    border: 0.5px solid white;
+    background-color: rgb(69, 142, 202);
+    border-collapse:collapse;
+    height: 50px;
+}
+
+#t1 th {
+    text-transform: uppercase;
+    background-color: black;
+}
+table#t1 td {
+    height: 200px;
+}
+ul li {
+    list-style: none;
+    border: 1px solid black;
+    height: 30px;
+    background-color: rgb(102, 78, 78);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2px;
+}
+.lii {
+    background-color: darkgreen;
+}
+
+@keyframes guru {
+    0% {
+        transform: scale(-2);
+    }
+    10% {
+        transform:scaleZ(0.5)
+    }
+    20% {
+        transform: scale(1);
+    }
+    30% {
+        transform: translateX(2);
+    }
+    50% {
+        transform: translateZ(0.5);
+    }
+
+    100% {
+        transform: scale(0);
+        transform: scaleZ(0);
+        transform: translateX(0);
+        transform: translateZ(0);
+    }
+}
+#sec {
+    animation-name: guru;
+    animation-duration: 7s;
+    animation-delay: 0.2s;
+}
+.mydis {
+    animation-name: guru;
+    animation-duration: 7s;
+    animation-delay: 0.8s;
+}
+
+@media screen and (max-width:481px)
